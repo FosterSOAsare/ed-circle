@@ -1,0 +1,9 @@
+@import "./globals";
+header {
+	background-color: red;
+	.header__container {
+		background-color: green;
+		height: 70px;
+		@include flex(space-between, center);
+	}
+}
